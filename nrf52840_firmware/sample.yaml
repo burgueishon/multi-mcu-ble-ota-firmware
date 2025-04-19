@@ -1,0 +1,10 @@
+sample:
+  name: UART + BLE OTA Firmware Example
+tests:
+  sample.uart_comm:
+    tags:
+      - uart
+    platform_allow: xiao_ble
+    harness: console
+    integration_platforms:
+      - xiao_ble
