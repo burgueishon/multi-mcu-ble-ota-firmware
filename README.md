@@ -1,10 +1,10 @@
-# Wearable Firmware – nRF52840 + SAMD21
+# BLE Platform Firmware – nRF52840 + SAMD21
 
-This repository contains the firmware for a multi-MCU sleep monitoring wearable device. The system consists of an **nRF52840** (central processor and BLE communication hub) and a **SAMD21** (sensor acquisition and OTA update target).
+This repository contains the firmware for a multi-MCU BLE platform. The system consists of an **nRF52840** (central processor and BLE communication hub) and a **SAMD21** (sensor acquisition and OTA update target).
 
 ## Overview
 
-This project implements a multi-MCU firmware architecture for a BLE wearable device:
+This project implements a multi-MCU firmware architecture for a BLE device platform:
 
 - Firmware for both the nRF52840 and SAMD21 platforms
 
@@ -106,7 +106,7 @@ This project is configured for debugging using **SEGGER RTT**. To enable this, S
 
 - [nRF52840 Zephyr Firmware](nrf52840_firmware/)
 - [SAMD21 Firmware (Arduino)](SAMD_APP/)
-- [Firmware Architecture Documentation PDF](docs/Firmware_Architecture.pdf)
+- [Firmware Architecture Documentation](docs/Firmware_Architecture.md)
 - [OTA Python Scripts](docs/ota)
 
 
